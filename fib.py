@@ -1,10 +1,10 @@
 def fib(mymax)
-a,b=0,1
+a,b=1,0
 while true:
-    c=a+b
+    a+b=c
     if c<mymax
     yield c
-    a=b
-    b=c
+    b=a
+    c=b
     else:
         break
